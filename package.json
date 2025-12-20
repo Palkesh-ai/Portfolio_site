@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://palkesh-ai.github.io/Portfolio_site",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -81,6 +82,5 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
     "vite": "^5.4.19"
-  },
-  "homepage": "https://palkesh-ai.github.io/Portfolio_site"
+  }
 }
