@@ -20,7 +20,7 @@ const skillCategories = [
   },
   {
     title: "Tools",
-    skills: ["Git & GitHub", "Docker", "Postman", "Vercel"],
+    skills: ["Git & GitHub", "Docker", "Postman"],
   },
 ];
 
@@ -31,7 +31,7 @@ const SkillsSection = () => {
         <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-12 text-center">
           Technical Skills
         </h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category) => (
             <Card key={category.title} className="bg-card border-border/50 shadow-sm">
@@ -43,8 +43,8 @@ const SkillsSection = () => {
               <CardContent className="pt-0">
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill) => (
-                    <Badge 
-                      key={skill} 
+                    <Badge
+                      key={skill}
                       variant="secondary"
                       className="font-normal text-sm py-1.5 px-3"
                     >
